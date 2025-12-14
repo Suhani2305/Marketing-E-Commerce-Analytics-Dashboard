@@ -1,5 +1,8 @@
 # 📊 Marketing & E-Commerce Analytics Dashboard
 
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+
 > A comprehensive Power BI dashboard analyzing 100K customers, 1M+ events, and $8.37M revenue across marketing campaigns, product performance, and customer lifetime value.
 
 ---
@@ -8,10 +11,10 @@
 
 | Link | Description |
 |------|-------------|
-| 🌐 **[Live Dashboard]** | `https://app.powerbi.com/groups/me/reports/e11e5eed-d3fb-4806-81a0-ff97e1690c59/fa5a9db66a392632d09a?experience=power-bi` |
-| 📄 **[Project Report PDF]** | `https://drive.google.com/file/d/1k81fQ9V2JWc4qsUXY2CCXFaY4HewBgTk/view?usp=sharing` |
-| 📊 **[Download .pbix File]** | `https://drive.google.com/drive/folders/1ifGgPByjF5Pp0ccNLeAHctmEU-iwWjHW?usp=sharing` |
-| 📸 **[Screenshots]** | `https://drive.google.com/drive/folders/1cTFlQo0BltLTBKbrT-kHjLkNOuPXYbSW?usp=sharing` |
+| 🌐 **[Live Dashboard](https://app.powerbi.com/groups/me/reports/e11e5eed-d3fb-4806-81a0-ff97e1690c59/fa5a9db66a392632d09a?experience=power-bi)** | View Interactive Power BI Dashboard |
+| 📄 **[Project Report PDF](https://drive.google.com/file/d/1k81fQ9V2JWc4qsUXY2CCXFaY4HewBgTk/view?usp=sharing)** | Complete Project Documentation |
+| 📊 **[Download .pbix File](https://drive.google.com/drive/folders/1ifGgPByjF5Pp0ccNLeAHctmEU-iwWjHW?usp=sharing)** | Power BI Desktop File |
+| 📸 **[Screenshots](https://drive.google.com/drive/folders/1cTFlQo0BltLTBKbrT-kHjLkNOuPXYbSW?usp=sharing)** | Dashboard Preview Images |
 
 ---
 
@@ -102,7 +105,22 @@
 
 ---
 
- 
+## 🚀 Quick Setup
+
+```bash
+# 1. Clone repo
+git clone https://github.com/SuhaniRG/marketing-analytics-dashboard.git
+
+# 2. Download dataset from Kaggle & place in data/ folder
+
+# 3. Open .pbix file in Power BI Desktop
+
+# 4. Refresh data & explore!
+```
+
+**Requirements**: Windows 10/11, Power BI Desktop, 8GB+ RAM
+
+---
 
 ## 📐 Sample DAX Measures
 
@@ -129,7 +147,11 @@ SWITCH(TRUE(),
     [Days Since Last Purchase] <= 90, "At Risk",
     "High Risk"
 )
- 
+```
+
+📄 [View all 50+ DAX measures in project files]
+
+---
 
 ## 📁 Project Structure
 
@@ -147,19 +169,19 @@ marketing-analytics-dashboard/
 ## 📸 Dashboard Previews
 
 ### Marketing Overview
-![Dashboard 1](`https://drive.google.com/file/d/1q_MAv2A78ZGo0o75Cc0Kv6H0d_PvZdjN/view?usp=sharing`)
+![Dashboard 1](https://drive.google.com/uc?export=view&id=1q_MAv2A78ZGo0o75Cc0Kv6H0d_PvZdjN)
 
 ### Customer Funnel
-![Dashboard 2](`https://drive.google.com/file/d/1je8T8yRU4n4ys4y5xj1XltThQwfhgqV5/view?usp=sharing`)
+![Dashboard 2](https://drive.google.com/uc?export=view&id=1je8T8yRU4n4ys4y5xj1XltThQwfhgqV5)
 
 ### Product Performance
-![Dashboard 3](`https://drive.google.com/file/d/1K7_l-hHTECwOqq7VvIVgYT8Mxv7Fxk0Q/view?usp=sharing`)
+![Dashboard 3](https://drive.google.com/uc?export=view&id=1K7_l-hHTECwOqq7VvIVgYT8Mxv7Fxk0Q)
 
 ### Campaign Performance
-![Dashboard 4](`https://drive.google.com/file/d/1Z96cXgSOiM45cBn7FfxLhVKZtQZ6DYBw/view?usp=sharing`)
+![Dashboard 4](https://drive.google.com/uc?export=view&id=1Z96cXgSOiM45cBn7FfxLhVKZtQZ6DYBw)
 
 ### CLV & Retention
-![Dashboard 5](`https://drive.google.com/file/d/14jNX4e33jfrpIu6S_lfBHsd6fGTa_IhX/view?usp=sharing`)
+![Dashboard 5](https://drive.google.com/uc?export=view&id=14jNX4e33jfrpIu6S_lfBHsd6fGTa_IhX)
 
 ---
 
@@ -178,8 +200,8 @@ marketing-analytics-dashboard/
 **Suhani Rawat**
 
 📧 pushpendrarawat868@gmail.com  
-💼 LinkedIn: `https://www.linkedin.com/in/suhanirawat2305/`  
-🌐 Portfolio: `https://suhani-portfolio-five.vercel.app/`
+💼 [LinkedIn](https://www.linkedin.com/in/suhanirawat2305/)  
+🌐 [Portfolio](https://suhani-portfolio-five.vercel.app/)
 
 ---
 
@@ -192,8 +214,8 @@ MIT License © 2025 Suhani Rawat
 ## 🙏 Acknowledgments
 
 - **Dataset**: Geetha Sagar Bonthu (Kaggle)
-- **Supervisor**:  Dr. Mrinalini Rana(UID:22138)
-- **Institution**: LPU
+- **Supervisor**: Dr. Mrinalini Rana (UID: 22138)
+- **Institution**: Lovely Professional University
 - **Tools**: Microsoft Power BI
 
 ---
